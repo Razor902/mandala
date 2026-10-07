@@ -10,11 +10,12 @@ here is gathered — the truth as he means it — awaiting his word.
 
 ## Preamble
 
-This contract binds the mandala — the currency of Curtis Ray Dyess's worlds —
-to the laws he has already declared. The Declaration of the Mandala is the
-constitution; the Mandala Chain is the ledger; **this contract is the binding
-terms** between the Authority who issues the mandala and every Citizen who
-carries one.
+This contract binds the mandala — the currency of Curtis Ray Dyess's worlds,
+embodied in the token called **sleep** (named for his favorite band, Sleep
+Token) — to the laws he has already declared. The Declaration of the Mandala
+is the constitution; the **Phantom X** chain is the ledger; **this contract
+is the binding terms** between the Authority who issues the token and every
+Citizen who carries one.
 
 Where this contract and the Declaration disagree, the Declaration governs
 until Curtis says otherwise — and his spoken word overrules both.

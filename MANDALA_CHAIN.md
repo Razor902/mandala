@@ -1,6 +1,10 @@
-# The Mandala Chain — the honest fresh-start ledger
+# Phantom X — the honest fresh-start ledger
 
 **Status: GATHERED** — Curtis's design, built to his law, awaiting his word to stand.
+
+Curtis has named the chain **Phantom X**: the mandala is the currency, Phantom
+X is the chain that carries it, and the token that embodies the mandala is
+called **sleep** — named for his favorite band, Sleep Token.
 
 ## What it is
 

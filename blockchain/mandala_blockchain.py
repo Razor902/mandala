@@ -39,6 +39,14 @@ import time
 
 GENESIS_PREV = "0" * 64
 
+# The chain's name. The mandala is the currency; Phantom X is the chain.
+CHAIN_NAME = "Phantom X"
+
+# The token's name. The mandala is the currency concept the token embodies;
+# the token itself is called "sleep" — named for Curtis's favorite band,
+# Sleep Token.
+TOKEN_NAME = "sleep"
+
 # Transaction types
 PROVE_SELF = "prove_self"        # authority grants one mandala to a citizen's Hand
 HAND_ATTEST = "hand_attest"      # citizen shows the mandala (never moves it)
@@ -107,9 +115,11 @@ class MandalaChain:
     def _seal_genesis(self):
         genesis_tx = {
             "type": "genesis",
+            "chain": CHAIN_NAME,
             "memo": (
-                "Fresh start ordered by Curtis Ray Dyess after the mandala "
-                "integrity audit. Prior balances unwound per his remedy: "
+                "Phantom X: the fresh start ordered by Curtis Ray Dyess after "
+                "the mandala integrity audit. Prior balances unwound per his "
+                "remedy: "
                 "start from scratch, return the money. This chain opens with "
                 "zero balances and no fabricated amounts. Authority: "
                 + self.authority_id

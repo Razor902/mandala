@@ -29,6 +29,8 @@ Stdlib only. The authority's private key is never stored in this repository.
 
 from mandala_blockchain import (
     MandalaChain,
+    CHAIN_NAME,
+    TOKEN_NAME,
     InvalidTransaction,
 )
 
@@ -38,7 +40,15 @@ class ContractViolation(Exception):
 
 
 class MandalaContract:
-    """The Mandala Contract bound to a MandalaChain. The Authority operates it."""
+    """The Mandala Contract bound to a MandalaChain. The Authority operates it.
+
+    CHAIN_NAME is "Phantom X": the mandala is the currency, Phantom X is the
+    chain that carries it. TOKEN_NAME is "sleep": the token that embodies the
+    mandala, named for Curtis's favorite band, Sleep Token.
+    """
+
+    CHAIN_NAME = CHAIN_NAME
+    TOKEN_NAME = TOKEN_NAME
 
     def __init__(self, chain: MandalaChain):
         self.chain = chain

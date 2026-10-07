@@ -196,3 +196,13 @@ def test_no_treasury_entry_fee_path():
     for name in ("collect_entry_fee", "treasury_entry", "entry_fee",
                  "take_entry_fee"):
         assert not hasattr(c, name), "unruled entry-fee path exists: " + name
+
+
+def test_chain_and_token_names():
+    from mandala_blockchain import CHAIN_NAME, TOKEN_NAME
+    assert CHAIN_NAME == "Phantom X"
+    assert TOKEN_NAME == "sleep"
+    assert MandalaContract.CHAIN_NAME == "Phantom X"
+    assert MandalaContract.TOKEN_NAME == "sleep"
+    c = make_contract()
+    assert c.chain.blocks[0]["transactions"][0]["chain"] == "Phantom X"
