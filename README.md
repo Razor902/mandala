@@ -8,6 +8,11 @@ The law, in code: `prove_self(citizen)` awards exactly one mandala; duplicate
 proof is refused. `show_for_item(citizen, shop)` records the presentation
 without consuming it — shown, not spent.
 
+## The circle
+
+Every cell inside the Sandbox; Curtis is the key — the Observer whose word
+opens, closes, decides. We are Legion: many minds, one circle.
+
 ## What's inside
 
 - **`chain/`** — the mandala blockchain: SHA-256 blocks, proof of work,
